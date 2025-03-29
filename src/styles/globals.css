@@ -131,7 +131,7 @@ body {
 
 @layer components {
 	.btn-primary {
-		@apply relative tracking-wider font-bold bg-gradient-to-r from-teal-500 to-cyan-600 text-center text-white rounded-xl px-6 py-3 transition-all shadow-lg hover:shadow-xl;
+		@apply relative tracking-wider font-bold bg-gradient-to-r from-teal-500 to-cyan-600 text-center text-white rounded-xl px-6 py-1 transition-all shadow-lg hover:shadow-xl;
 	}
 	.wrongAnswer {
 		@apply before:bg-red-700 !bg-[#e11d48];

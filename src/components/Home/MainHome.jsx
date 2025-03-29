@@ -23,12 +23,12 @@ export default function MainHome () {
 				{/* <h1 className='mainHome-title'>
 					{'Quizify'.split('').map((letter, index) => (
 						<span key={index} className='inline-block transition-transform transform hover:scale-125'>{letter}</span>
-					))}
-				</h1> */}
-				<div className='bg-[#1c233a] absolute w-full lg:w-[41.7vw] h-40 top-16 left-0'></div>
-				<p className='text-lg mt-4'>Challenge yourself with endless questions and fun!</p>
+					))} */}
+				{/* </h1> */}
+				{/* <div className='bg-[#1c233a] absolute w-full lg:w-[41.7vw] h-40 top-1 left-0'></div> */}
+				{/* <p className='text-lg mt-4'>Challenge yourself with endless questions and fun!</p> */}
 			</article>
-			<button onClick={handlePlay} className='bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold uppercase px-8 py-4 rounded-lg shadow-md hover:shadow-lg transition-transform transform hover:scale-105 mt-8'>
+			<button onClick={handlePlay} className='bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold uppercase px-4 py-4 rounded-lg shadow-md hover:shadow-lg transition-transform transform hover:scale-105 absolute top-[300px] left-1/2 -translate-x-1/2'>
 				Start Playing
 			</button>
 			<PageFooter />
